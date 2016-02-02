@@ -15,6 +15,7 @@
 		D7F1681F1C605B96001388A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F1681D1C605B96001388A1 /* LaunchScreen.storyboard */; };
 		D7F1682A1C605B96001388A1 /* demo_PageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F168291C605B96001388A1 /* demo_PageViewControllerTests.m */; };
 		D7F168351C605B97001388A1 /* demo_PageViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F168341C605B97001388A1 /* demo_PageViewControllerUITests.m */; };
+		D7F168441C605DA5001388A1 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F168431C605DA5001388A1 /* PageContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D7F168301C605B97001388A1 /* demo_PageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo_PageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F168341C605B97001388A1 /* demo_PageViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo_PageViewControllerUITests.m; sourceTree = "<group>"; };
 		D7F168361C605B97001388A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F168421C605DA4001388A1 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		D7F168431C605DA5001388A1 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D7F168131C605B96001388A1 /* AppDelegate.m */,
 				D7F168151C605B96001388A1 /* ViewController.h */,
 				D7F168161C605B96001388A1 /* ViewController.m */,
+				D7F168421C605DA4001388A1 /* PageContentViewController.h */,
+				D7F168431C605DA5001388A1 /* PageContentViewController.m */,
 				D7F168181C605B96001388A1 /* Main.storyboard */,
 				D7F1681B1C605B96001388A1 /* Assets.xcassets */,
 				D7F1681D1C605B96001388A1 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F168171C605B96001388A1 /* ViewController.m in Sources */,
+				D7F168441C605DA5001388A1 /* PageContentViewController.m in Sources */,
 				D7F168141C605B96001388A1 /* AppDelegate.m in Sources */,
 				D7F168111C605B96001388A1 /* main.m in Sources */,
 			);
