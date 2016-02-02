@@ -18,12 +18,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKi-V0-YME">
-                                <rect key="frame" x="236" y="539" width="129" height="30"/>
+                                <rect key="frame" x="236" y="562" width="129" height="30"/>
+                                <color key="backgroundColor" red="0.2941176593" green="0.7607843876" blue="0.24313727020000001" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="129" id="D8S-r4-3Bv"/>
                                     <constraint firstAttribute="height" constant="30" id="Kse-Po-UgN"/>
                                 </constraints>
-                                <state key="normal" title="start again"/>
+                                <state key="normal" title="start again">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="startWalkthough:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O4N-7g-WAG"/>
                                 </connections>
@@ -32,7 +35,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="iKi-V0-YME" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="28H-iu-mk5"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iKi-V0-YME" secondAttribute="bottom" constant="31" id="BNS-X7-Dl9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iKi-V0-YME" secondAttribute="bottom" constant="8" id="BNS-X7-Dl9"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -65,12 +68,13 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OG2-89-on4">
                                 <rect key="frame" x="256" y="80" width="89" height="21"/>
+                                <color key="backgroundColor" red="0.2941176593" green="0.7607843876" blue="0.24313727020000001" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="89" id="hgX-aL-Vx9"/>
                                     <constraint firstAttribute="height" constant="21" id="md5-Vn-SIe"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
